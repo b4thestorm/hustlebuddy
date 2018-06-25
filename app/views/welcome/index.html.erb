@@ -1,0 +1,30 @@
+
+<div class="body">
+<center>
+<div>
+  <center>
+  <h1>Hustle Buddy</h1>
+    <p>The todo list is the cornerstone of our ability to be successful.</p>
+    <p>But it is not a living breathing document that holds us to the fire.</p>
+    <p>It is simply a piece of paper or a text file. Hustle Buddy is founded</p>
+    <p>on the premise that having a supportive community of doers will  carve</p>
+    <p>out the kind of environment that gives life and meaning to that to do list.</p>
+    <p>Ever wondered what your life would be like, if you hit every goal you ever</p>
+    <p>set for your self?</p>
+  </center>
+</div>
+</center>
+<div id="video-section">
+  <%= form_tag("/welcome", method: "post", autocomplete: :off) do %>
+    <%= label_tag(:email, "email", class: :ghost)%>
+    <%= text_field_tag :email, 'email*', class: :ghost1 %>
+    <%= label_tag(:name, "name", class: :ghost)%>
+    <%= text_field_tag(:name, "name*", class: :ghost2) %>
+    <%= label_tag(:goal, "goal*", class: :ghost)%>
+    <%= text_field_tag(:goal, "goal*" , class: "ghost3") %>
+    <%= submit_tag("Join Now To Find Out", class: :showbutton ) %>
+  <% end %>
+
+</div>
+</div>
+

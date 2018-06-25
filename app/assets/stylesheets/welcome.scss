@@ -1,0 +1,173 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.body {
+    background-color: white;
+    font-size: 20px;
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 100px;
+  color: black;
+}
+
+.showbox {
+  position: relative;
+  padding: 0px 0px 5px 0px;
+  height: 500px;
+  background-image: url(https://lovelyoldtree.files.wordpress.com/2013/12/img_0802.jpg);
+  background-size: auto 600px;
+  background-position: top center;
+  background-attachment: fixed;
+  box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.5);
+}
+
+.showform {
+  position: absolute;
+  top: 40%;
+  margin-top: -50px;
+  width: 200px;
+  right: 550px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+
+
+.ghost {
+  display: block;
+  border:0px;
+  width: 100%;
+  color: red;
+  font-family: Open Sans,Verdana;
+  padding: 10px 15px;
+ 
+}
+
+
+.subtitle {
+  display: inline-block; 
+  font-family: 'Roboto', sans-serif; 
+  color: black;
+
+}
+
+#video-section {
+  position: relative;
+  height: 475px;
+  background-color: red;
+  margin-bottom: 0px;
+}
+
+
+#categories {
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 45%; 
+  margin-top: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.thumbnail_link {
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  border: 1px solid black;
+  position: absolute;
+  display: block;
+  left: 50%;
+  margin-left: -85px;
+  width: 150px;
+  padding: 8px;
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.ghost1 {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  position: absolute;
+  top: 150px;
+  margin-left: -85px;
+  margin-bottom: 25px;
+  width: 400px;
+  right: 35%;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+
+.ghost2 {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  position: absolute;
+  top: 200px;
+  margin-left: -85px;
+  margin-bottom: 25px;
+  width: 400px;
+  right: 35%;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.ghost3 {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  position: absolute;
+  top: 250px;
+  margin-left: -85px;
+  margin-bottom: 25px;
+  width: 400px;
+  right: 35%;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.ghost4 {
+  color: white;
+  border: 1px solid white;
+  display: block;
+  position: absolute;
+  top: 300px;
+  margin-left: -85px;
+  margin-bottom: 25px;
+  width: 400px;
+  right: 35%;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.3s ease-out, background-color 0.3s ease-out;
+}
+
+.showbutton {
+  color: black;
+  border: 1px solid white;
+  display: block;
+  position: absolute;  
+  width: 400px;
+  top: 300px;
+  right: 435px;
+  margin-bottom: 25px;
+  margin-left: -85px;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer {
+  display: inline-block;
+}
