@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   resources :welcome
   get '/thank_you', to: 'welcome#thank_you'
-
+  post '/record_accountable', to: 'welcome#record_accountable'
+  get 'example', to: 'welcome#example'
+  
   root to: 'welcome#index'
 end

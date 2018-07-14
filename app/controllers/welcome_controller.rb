@@ -17,7 +17,15 @@ class WelcomeController < ApplicationController
 
   def thank_you
     
-  end 
+  end
+
+  def record_accountable
+      
+  end
+
+  def example 
+    
+  end
 
   def buddy_params
     params.permit(:email, :name, :goal)
