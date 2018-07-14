@@ -25,7 +25,7 @@ namespace :goal_reminders do
      client = Twilio::REST::Client.new(account_sid, auth_token) 
     
      buddies.each do |buddy|
-       client.api.account.messages.create(from: '+17326381269', to: '+19174440551',
+       client.messages.create(from: '+17326381269', to: buddy.phone_number,
        body: quotes[rand(12)]
        )
      end 
