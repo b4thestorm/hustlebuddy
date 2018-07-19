@@ -1,6 +1,5 @@
 class Count < ApplicationRecord
    # ONLY GETS RUN ONE TIME
-   # 1 quote per rake
    def initial_count 
      self.count = 1
      self.save
