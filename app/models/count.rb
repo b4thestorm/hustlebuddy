@@ -1,9 +1,4 @@
 class Count < ApplicationRecord
-   # ONLY GETS RUN ONE TIME
-   def initial_count 
-     self.count = 1
-     self.save
-   end 
 
    def update_count
      new_count = Count.new 
