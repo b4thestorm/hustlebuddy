@@ -9,6 +9,7 @@ class WelcomeController < ApplicationController
   def create
     @buddy = Buddy.create(buddy_params)
     if @buddy.save
+      subscribe_to_list(buddy_params[:name], buddy_params[:email])
       redirect_to thank_you_path
     else
       render :index
