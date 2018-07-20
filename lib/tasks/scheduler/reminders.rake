@@ -13,7 +13,7 @@ namespace :goal_reminders do
     
      buddies.each do |buddy|
        client.messages.create(from: '+17326381269', to: buddy.phone_number,
-       body: current_quote.phrase + "     -HustleBuddy" 
+       body: current_quote[0].phrase + "     -HustleBuddy" 
        )
      end
      
